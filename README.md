@@ -14,7 +14,7 @@ and put in {arduino_workdir}/packages/Heltec-esp32/tools/esptool_py/{version}/
 besides with the provided py file  
 3. modify the configuration files accordingly  
 {arduino_workdir}/packages/Heltec-esp32/hardware/esp32/0.0.7/platform.txt  
-changing the occurrences of esptool.py in "cmd.linux" and "pattern.linux" rows accordingly and putting the correct esptool executable  
+changing the occurrences of esptool.py in "cmd.linux" and "pattern.linux" rows accordingly, putting the correct esptool executable and removing the unneeded python3 command 
 ```
 ##beginning of file  
 ...  

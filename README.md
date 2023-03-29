@@ -21,17 +21,17 @@ changing the occurrences of esptool.py in "cmd.linux" and "pattern.linux" rows a
 #tools.esptool_py.cmd.linux=esptool.py
 tools.esptool_py.cmd.linux=esptool
 
-## Upload Sketch
+##Upload Sketch
 ...
 #tools.esptool_py.upload.pattern.linux=python3 "{path}/{cmd}" {upload.pattern_args}
 tools.esptool_py.upload.pattern.linux="{path}/{cmd}" {upload.pattern_args}
 
-## Program Application
+##Program Application
 ...
 #tools.esptool_py.upload.pattern.linux=python3 "{path}/{cmd}" {upload.pattern_args}
 tools.esptool_py.upload.pattern.linux="{path}/{cmd}" {upload.pattern_args}
 
-## Erase Chip
+##Erase Chip
 ...
 #tools.esptool_py.erase.pattern.linux=python3 "{path}/{cmd}" {erase.pattern_args}
 tools.esptool_py.erase.pattern.linux="{path}/{cmd}" {erase.pattern_args}
